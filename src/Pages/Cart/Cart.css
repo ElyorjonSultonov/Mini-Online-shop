@@ -1,0 +1,53 @@
+.cart {
+}
+.cart h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.cart .cartWrapper .cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 5px 15px;
+  margin-top: 30px;
+}
+
+.cart .cartWrapper .cartCard img {
+  height: 80px;
+  width: 5%;
+}
+.cart .cartWrapper .cartCard h4 {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 20px 0;
+  background: #fff;
+}
+
+.cart .cartWrapper .cartCard h3 {
+  font-weight: bold;
+  color: rgb(1, 1, 113);
+  background: #fff;
+  font-size: 16px;
+}
+
+.cart .cartWrapper .cartCard .btn {
+  border: none;
+  background: blueviolet;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border: 1px solid #fff;
+}
+
+.cart .cartWrapper .cartCard .btn:hover {
+  color: black;
+  border: 1px solid black;
+  background: none;
+}

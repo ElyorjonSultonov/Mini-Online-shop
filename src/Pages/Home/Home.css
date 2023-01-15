@@ -1,0 +1,15 @@
+.home .heading {
+  font-size: 28px;
+  text-align: center;
+  margin: 20px auto;
+  /* border-bottom: 2px solid blueviolet; */
+}
+
+.home section {
+  text-align: center;
+}
+
+.home .homeTitle {
+  font-weight: bold;
+  font-size: 20px;
+}

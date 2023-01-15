@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+}
+.navbar .logo {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+}
+.navbar nav {
+  margin: 0 20px;
+}
+.navbar nav .navLink {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.navbar nav .cartCount {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 0, 95);
+  margin-left: 15px;
+}
